@@ -56,7 +56,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
   holiday_hash.collect do |season, data|
     data.collect.flatten do |holiday, supply|
-      binding.pry
+      
       supply.select{|item| item == "BBQ"}
   end
 end
