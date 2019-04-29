@@ -54,8 +54,8 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 def all_holidays_with_bbq(holiday_hash)
-  holiday_hash.each do |all_seasons|
-    all_seasons.each do |value, attribute|
+  holiday_hash.each do |all_seasons, data|
+    data.each do |value, attribute|
       binding.pry
       puts "#{value} #{attribute}"
   end
