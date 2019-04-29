@@ -56,9 +56,9 @@ end
 def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |all_seasons|
     all_seasons.each do |single_seasons|
-      binding.pry
       single_seasons.split.each do |holiday|
-      holiday.collect {|supply| supply == "BBQ"}
+        binding.pry
+         holiday.collect {|supply| supply == "BBQ"}
   end
 end
 end
