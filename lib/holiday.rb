@@ -54,6 +54,6 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 def all_holidays_with_bbq(holiday_hash)
-  holiday_hash.collect {|supply| supply == "BBQ"}
-    
+  holiday_hash[:summer].collect {|supply| supply == "BBQ"}
+  holiday_hash[:spring].collect {|supply| supply == "BBQ"}
 end
