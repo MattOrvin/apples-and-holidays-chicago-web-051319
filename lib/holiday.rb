@@ -58,7 +58,7 @@ def all_holidays_with_bbq(holiday_hash)
     data.each do |holiday, supply|
       binding.pry
       if supply.include?("BBQ")
-        holiday.keys
+        supply.keys
         
   end
 end
