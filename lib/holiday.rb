@@ -58,6 +58,7 @@ def all_holidays_with_bbq(holiday_hash)
     data.each do |value, attribute|
       if attribute == "BBQ"
         value.key
+        binding.pry
   end
 end
 end
