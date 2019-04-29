@@ -55,9 +55,8 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |all_seasons|
-    all_seasons.each do |single_seasons|
-      if single_seasons == :summer||:spring
-        
+    all_seasons.each do |value, attribute|
+      binding.pry
   end
 end
 end
