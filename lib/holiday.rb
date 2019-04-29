@@ -58,6 +58,7 @@ def all_holidays_with_bbq(holiday_hash)
     data.collect do |holiday, supply|
      supply.collect{|item| item == "BBQ"}
       holiday.collect{|holidays| holidays.include?("BBQ")}
+       binding.pry
   end
 end.flatten
 end
